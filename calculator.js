@@ -14,7 +14,7 @@ function maximum(numbers) {
     //Math.max() does not support arrays, so this is a manual implementation.
     let max = numbers[0];
     
-    for (number of numbers) {
+    for (let number of numbers) {
         if (number > max) {
             max = number;
          }
@@ -27,7 +27,7 @@ function minimum(numbers) {
     //Math.min() does not support arrays, so this is a manual implementation.
     let min = numbers[0];
     
-    for (number of numbers) {
+    for (let number of numbers) {
         if (number < min) {
             min = number;
          }
